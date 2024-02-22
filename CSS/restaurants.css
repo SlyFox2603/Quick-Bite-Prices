@@ -1,0 +1,40 @@
+/* The CSS used for the restaurants page */
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tall-box {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.box-topleft,
+.box-bottomleft {
+    grid-row: 1;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 364.5px;
+    margin: auto;
+}
+
+.box-topright,
+.box-bottomright {
+    grid-row: 2;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 364.5px;
+    margin: auto;
+}

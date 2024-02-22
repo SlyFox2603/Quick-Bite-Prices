@@ -1,0 +1,4 @@
+/* The CSS for the create user page */
+.login-container input[type="submit"] {
+    width: 50%;
+}

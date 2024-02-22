@@ -1,0 +1,15 @@
+/* The CSS used for the user profile page */
+.user-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    max-width: 500px;
+}
+
+.user-container h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 64px;
+}

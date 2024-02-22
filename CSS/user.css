@@ -1,0 +1,29 @@
+/* The CSS used for the user pages */
+.login-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    max-width: 500px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="submit"],
+.login-container a {
+    width: 100%;
+    padding: 10px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.login-container input[type="submit"] {
+    width: 25%;
+    margin-bottom: 0;
+}
+
+.login-container a {
+    margin-left: 129.5px;
+}
